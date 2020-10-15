@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import { Button, FormGroup, FormControl, ControlLabel } from 'react-bootstrap';
-import { Auth } from 'aws-amplify';
+// import { Auth } from 'aws-amplify';
 // import { AmplifyAuthenticator } from '@aws-amplify/ui-react';
 // import css
 
@@ -70,12 +70,12 @@ function LoginInfo() {
     async function handleSubmit(event) {
       event.preventDefault();
       
-      try {
-          await Auth.signin(this.state.email, this.state.password);
-          alert("Logged in");
-      } catch(e) {
-          alert(e.message);
-      }
+      // try {
+      //     await Auth.signin(this.state.email, this.state.password);
+      //     alert("Logged in");
+      // } catch(e) {
+      //     alert(e.message);
+      // }
     }
 
     return (
