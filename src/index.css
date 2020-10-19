@@ -9,5 +9,29 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
+}
+
+
+button {
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 167px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+@media all and (min-width: 500px) {
+  .Login {
+      padding: 60px 0;
+  }
+
+  .Login form {
+      margin: 0 auto;
+      width: 320px;
+  }
 }
